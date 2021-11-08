@@ -1,0 +1,22 @@
+{
+  "name": "numerique-pour-toutes",
+  "version": "1.0.0",
+  "description": "Initiation au développement \"front\" et présentation de l'écosystème technique.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffremont/numerique-pour-toutes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffremont/numerique-pour-toutes/issues"
+  },
+  "homepage": "https://github.com/ffremont/numerique-pour-toutes#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
