@@ -5,45 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Numérique pour toutes > Atelier Coding</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/app.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/app.css" />
   </head>
   <body>
-
     <div class="ui middle aligned center aligned grid">
-        <div class="column">
-          <h2 class="ui teal image header">
-            <img src="/assets/logo.png" class="image">
-            <div class="content">
-              Commande de jus de pomme 🍏
+      <div class="column">
+        <h2 class="ui teal image header">
+          <img src="/assets/logo.png" class="image" />
+          <div class="content">Commande de jus de pomme 🍏</div>
+        </h2>
+
+        <!-- où envoyer le formulaire ? (action=) -->
+        <form
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc0U8pBod6bktjPy4EPljCNXTXeftpHMnt9lb1C64sQNdosKg/formResponse"
+          class="ui large form"
+        >
+          <div class="ui stacked segment">
+            <!-- A dupliquer le bloc de code -->
+            <div class="field">
+              <div class="ui left icon input">
+                <!-- voir https://semantic-ui.com/elements/icon.html -->
+                <i class="at icon"></i>
+                <input type="email" name="entry.1558033575" required placeholder="azerty@exemple.fr" />
+              </div>
             </div>
-          </h2>
-
-
-          <!-- où envoyer le formulaire ? (action=) -->
-          <form action="" class="ui large form">
-            <div class="ui stacked segment">
-
-                <!-- A dupliquer le bloc de code -->
-              <div class="field">
+            <div class="field">
                 <div class="ui left icon input">
-                    <!-- voir https://semantic-ui.com/elements/icon.html -->
-                  <i class="envelope outline icon"></i>
-                  <input type="text" name="..." placeholder="azerty@exemple.fr">
+                  <!-- voir https://semantic-ui.com/elements/icon.html -->
+                  <i class="user icon"></i>
+                  <input type="text" name="entry.901122353" required placeholder="Tom DEPIN" />
                 </div>
               </div>
-              <!-- fin de la section à dupliquer -->
-              
-              <button type="submit" class="ui fluid large teal submit button">Envoyer</button>
-            </div>
-      
-            <div class="ui message">
-                <!-- Message informatif sur le retrait -->
-            </div>
-      
-          </form>
-        </div>
+              <div class="field">
+                <div class="ui left icon input">
+                  <!-- voir https://semantic-ui.com/elements/icon.html -->
+                  <i class="phone icon"></i>
+                  <input type="text" name="entry.1243955736" required maxlength="10" placeholder="0612345678" />
+                </div>
+              </div>
+              <div class="field">
+                <div class="ui left icon input">
+                  <!-- voir https://semantic-ui.com/elements/icon.html -->
+                  <i class="shopping basket icon"></i>
+                  <input type="text" name="entry.244979117" required placeholder="Volume de bouteille" />
+                </div>
+              </div>
+              <div class="field">
+                <div class="ui left icon input">
+                  <!-- voir https://semantic-ui.com/elements/icon.html -->
+                  <i class="comment outline icon"></i>
+                  <input type="text" name="entry.4221695" placeholder="Commentaire" />
+                </div>
+              </div>
+            <!-- fin de la section à dupliquer -->
+
+            <button type="submit" class="ui fluid large teal submit button">
+              Envoyer
+            </button>
+          </div>
+
+          <div class="ui message">
+            <!-- Message informatif sur le retrait -->
+          </div>
+        </form>
       </div>
+    </div>
 
     <script>
       if ("serviceWorker" in navigator) {
