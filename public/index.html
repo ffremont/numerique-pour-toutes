@@ -18,24 +18,28 @@
               Commande de jus de pomme 🍏
             </div>
           </h2>
-          <form class="ui large form">
+
+
+          <!-- où envoyer le formulaire ? (action=) -->
+          <form action="" class="ui large form">
             <div class="ui stacked segment">
+
+                <!-- A dupliquer le bloc de code -->
               <div class="field">
                 <div class="ui left icon input">
-                  <i class="user icon"></i>
-                  <input type="text" name="email" placeholder="E-mail">
+                    <!-- voir https://semantic-ui.com/elements/icon.html -->
+                  <i class="envelope outline icon"></i>
+                  <input type="text" name="..." placeholder="azerty@exemple.fr">
                 </div>
               </div>
-              <div class="field">
-                <div class="ui left icon input">
-                  <i class="lock icon"></i>
-                  <input type="text" name="nom" placeholder="Nom">
-                </div>
-              </div>
-              <div class="ui fluid large teal submit button">S'inscrire</div>
+              <!-- fin de la section à dupliquer -->
+              
+              <button type="submit" class="ui fluid large teal submit button">Envoyer</button>
             </div>
       
-            <div class="ui error message"></div>
+            <div class="ui message">
+                <!-- Message informatif sur le retrait -->
+            </div>
       
           </form>
         </div>
