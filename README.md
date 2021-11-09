@@ -24,10 +24,11 @@ Vous allez créer votre premier formulaire HTML pour commander des bouteilles de
 Pour faciliter la gestion des commandes de Jus de pomme, nous souhaitons diffuser aux parents d'éléves un **lien** pour qu'il puisse commander. Le réglement se fera à la récupération des bouteilles.
 
 #### Piste technique
-Pour ne pas "recoder" la roue, nous allons exploiter un formulaire Google Froms "en arrière plan". Ce dernier nous permettra d'alimenter une Google Sheet lors de la soumission du formulaire.
+Pour ne pas "recoder" la roue in fine, nous allons refaire simplement l'ergonomie du formulaire Google Forms. 
+Ainsi nous pourrons conserver le comportement à la soumission du formulaire : alimentation d'une feuille Google Sheet.
 
 
-[**Google Forms de référence 😎 **](https://forms.gle/d2V69NAei3QTKyu86)
+[**Google Forms de référence 😎**](https://forms.gle/d2V69NAei3QTKyu86)
 
 > Vous pouvez faire F5 pour explorer le traffic réseau, notamment **la soumission du formulaire**
 ![Champs du formulaire Google forms](/ressources/gg-forms-fields.png)
@@ -38,7 +39,7 @@ Pour ne pas "recoder" la roue, nous allons exploiter un formulaire Google Froms 
     - téléphone
     - quantité de bouteille
     - commentaire
-- **Note informatique sur la date et le lieu du retrait**
+- **Note informative sur la date et le lieu du retrait**
     - le vendredi 10 décembre à la sortie de l'école entre 16h et 18h
     - proposer un lien pour ajouter à Google Agenda basé sur le format iCal 
         - [Générer un lien](https://ical.marudot.com)
